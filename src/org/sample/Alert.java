@@ -44,7 +44,7 @@ public class Alert {
 			   String text1 = alert2.getText();
 			   System.out.println(text1);
 			   alert2.accept();
-			   driver.quit();
+			   driver.close();
 			   
 			  
 			   
