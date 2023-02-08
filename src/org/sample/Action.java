@@ -37,7 +37,7 @@ public class Action {
 	   Thread.sleep(3000);
 	   WebElement d3 = driver.findElement(By.xpath("(//li[@class='placeholder'])[4]"));
 	   a.dragAndDrop(s3, d3).build().perform();
-	   
+	   driver.close();
 	   
 	}
 }
